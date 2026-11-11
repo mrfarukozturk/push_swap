@@ -14,7 +14,11 @@
 # define PUSH_SWAP_H
 
 char	**parse_flags(char **argv, int *st, int *bench);
+t_list	*parse_nums(char **argv);
 double	compute_disorder(t_list *a);
+
+int		sort_simple(t_list **a, int bench);
+int		sort_adaptive(t_list **a, int bench);
 
 int		sa(t_list **a, int print);
 int		sb(t_list **a, int print);

@@ -8,6 +8,7 @@ LIBFT       = $(LIBFT_DIR)/libft.a
 SRCS        = main.c \
 	parse_flags.c \
 	compute_disorder.c \
+	parse_nums.c \
 	strategies/sort_simple.c \
 	strategies/sort_medium.c \
 	strategies/sort_complex.c \
